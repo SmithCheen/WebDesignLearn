@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Object String</title>
+</head>
+<body>
+
+</body>
+<script>
+    // TODO 创建字符串对象
+    //var str = new String("Hello String");
+    var str = "  Hello String    ";
+
+    console.log(str);
+
+    // TODO length
+    console.log(str.length);
+
+    // TODO charAt 返回在指定索引位置的字符
+    console.log(str.charAt(4));
+
+    // TODO indexOf 检索指定内容在字符串中的索引位置
+    console.log(str.indexOf("lo"));
+
+    // TODO trim 去除字符串两边的空格
+    var s = str.trim();
+    console.log(s.length);
+
+    // TODO substring(start,end) --- 开始索引, 结束索引 (含头不含尾) 截取字符串的
+    console.log(s.substring(0,5));
+
+</script>
+</html>

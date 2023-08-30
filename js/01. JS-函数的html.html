@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // TODO 定义函数-1
+    // function add(a,b){
+    //    return  a + b;
+    // }
+
+    // TODO 定义函数-2
+    var add = function(a,b){
+        return  a + b;
+    }
+
+
+    // TODO 函数调用
+    var result = add(10,20);
+    alert(result);
+
+    // 不报错 因为在JavaScript中，函数的调用只需要名称正确即可，参数列表不管的。
+    // 如上述案例，10传递给了变量a，20传递给了变量b,而30和40没有变量接受，但是不影响函数的正常调用。
+    var result = add(10,20,30,40);
+</script>
+</html>
